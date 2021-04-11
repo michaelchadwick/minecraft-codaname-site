@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Minecraft: Craftwick</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="/assets/css/index.css" />
 
   <!-- Favicon -->
   <link rel="favicon" href="/assets/images/favicon.ico">
@@ -13,7 +13,17 @@
 </head>
 <body>
   <header>
-    <h1><a href="http://map.adults.craftwick.fun:8123/?mapname=surface&zoom=2&x=591&y=64&z=-82">Craftwick</a></h1>
+    <h1>Craftwick</h1>
+    <div>
+      <a id="survival" href="#" class="active" title="Change map below to Survival">Survival</a>
+      <a id="survival_ext" href="#" target="_blank">
+        <img src="/assets/images/external-link.svg" title="Launch Survival map in new window" class="external-link" />
+      </a> |
+      <a id="creative" href="#" title="Change map below to Creative">Creative</a>
+      <a id="creative_ext" href="#" target="_blank">
+        <img src="/assets/images/external-link.svg" title="Launch Creative map in new window" class="external-link" />
+      </a>
+    </div>
   </header>
   <section>
     <div id="iframe-wrapper" style="background: #fff">
@@ -24,5 +34,7 @@
   <footer>
     <div>'Minecrafter' font by <a href="https://www.dafont.com/minecrafter.font">Madpixel Designs</a></div>
   </footer>
+
+  <script src="/assets/js/index.js" type="text/javascript"></script>
 </body>
 </html>

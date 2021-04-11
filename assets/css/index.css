@@ -1,0 +1,92 @@
+@font-face {
+  font-family: minecrafter;
+  src: url(../fonts/Minecrafter.Reg.ttf);
+}
+
+html,
+body {
+  background-color: #79563a;
+  background-image: url(../images/bg_dirt.jpg);
+  font-family: monospace;
+  margin: 0;
+  overflow-y: hidden;
+  padding: 0; }
+
+a {
+  color: #111; }
+
+header {
+  background-color: #6c9642;
+  background-image: url(../images/dirt_grass.jpg);
+  background-size: contain;
+  border-bottom: 2px solid #333333; }
+  header h1 {
+    color: #70b246;
+    font-family: minecrafter;
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 0px 0px 8px #48230e; }
+  header div {
+    color: #c0c0c0;
+    font-family: minecrafter;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 3px #242424;
+    width: 100%; }
+    header div a,
+    header div a:visited {
+      color: #c0c0c0;
+      display: inline-block;
+      font-size: 2rem;
+      letter-spacing: 0.6rem;
+      margin: 0;
+      padding-top: 0;
+      text-decoration: none; }
+      header div a.active {
+        color: #ffd57a; }
+      header div a:hover {
+        color: #f3fefe; }
+      header div img.external-link {
+        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7)); }
+
+#iframe-wrapper {
+  border: 2px solid #999;
+  border-top: 0;
+  height: 92vh;
+  margin: 0 30px;
+  padding: 0;
+  width: auto; }
+  #iframe-wrapper iframe {
+    border: 0;
+    bottom: 0;
+    height: 92vh;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%; }
+
+footer {
+  background-color: #79563a;
+  border-top: 2px solid #333333;
+  bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  height: 5px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%; }
+  footer div {
+    bottom: 5px;
+    padding: 0;
+    position: relative; }
+    footer div a {
+      color: #ddd; }
+
+.small-img {
+  height: 20px;
+  width: 20px;
+}
