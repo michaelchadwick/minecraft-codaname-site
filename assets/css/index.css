@@ -1,7 +1,6 @@
 @font-face {
   font-family: minecrafter;
-  src: url(../fonts/Minecrafter.Reg.ttf);
-}
+  src: url(../fonts/Minecrafter.Reg.ttf); }
 
 html,
 body {
@@ -23,7 +22,7 @@ header {
   header h1 {
     color: #70b246;
     font-family: minecrafter;
-    font-size: 5.5rem;
+    font-size: 2.5rem;
     letter-spacing: 1rem;
     margin: 0;
     padding-top: 10px;
@@ -36,34 +35,57 @@ header {
     text-align: center;
     text-shadow: 2px 2px 3px #242424;
     width: 100%; }
-    header div a,
-    header div a:visited {
-      color: #c0c0c0;
+    header div a {
       display: inline-block;
-      font-size: 4rem;
+      font-size: 2.25rem;
       letter-spacing: 0.6rem;
       margin: 0;
       padding-top: 0;
       text-decoration: none; }
+      header div a,
+      header div a:visited {
+        color: #c0c0c0; }
       header div a.active {
         color: #ffd57a; }
       header div a:hover {
         color: #f3fefe; }
-      header div img.external-link {
-        filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7)); }
+      header div a.external-link {
+        display: inline-block;
+        height: 30px;
+        width: 30px; }
+        header div a.external-link div {
+          background-image: url("/assets/images/external-link.svg");
+          background-size: 100%;
+          filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+          height: 30px;
+          left: -15px;
+          position: relative;
+          top: 3px;
+          width: 30px; }
+
+@media (min-width: 426px) {
+  header h1 {
+    font-size: 3.5rem; }
+    header div a {
+      font-size: 3rem; }
+      header div a.external-link {
+        height: 40px;
+        width: 40px; }
+        header div a.external-link div {
+          height: 40px;
+          width: 40px; } }
 
 @media (min-width: 768px) {
   header h1 {
-    font-size: 3.5rem; }
-  header div a,
-  header div a:visited {
-    font-size: 2rem; } }
+    font-size: 5rem; }
+    header div a {
+      font-size: 3.5rem; } }
 
 #iframe-wrapper {
   border: 2px solid #999;
   border-top: 0;
   height: 92vh;
-  margin: 0 30px;
+  margin: 0;
   padding: 0;
   width: auto; }
   #iframe-wrapper iframe {
@@ -74,6 +96,10 @@ header {
     padding: 0;
     position: relative;
     width: 100%; }
+
+@media (min-width: 992px) {
+  #iframe-wrapper {
+    margin: 0 30px; } }
 
 footer {
   background-color: #79563a;
@@ -95,5 +121,4 @@ footer {
 
 .small-img {
   height: 20px;
-  width: 20px;
-}
+  width: 20px; }
