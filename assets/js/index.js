@@ -1,5 +1,5 @@
-let survival_url = 'http://map.adults.craftwick.fun:8123/?mapname=surface&zoom=2&x=591&y=64&z=-82';
-let creative_url = 'http://map.kids.craftwick.fun:8123/?worldname=world&mapname=flat&zoom=3&x=358&y=64&z=-163';
+let survival_url = 'http://map.adults.craftwick.fun:8123/?mapname=flat&zoom=4&x=933&y=64&z=42';
+let creative_url = 'http://map.kids.craftwick.fun:8123/?mapname=flat&zoom=4&x=300&y=64&z=-378';
 
 let survival_link = document.querySelector('#survival');
 let creative_link = document.querySelector('#creative');
