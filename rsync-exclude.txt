@@ -1,4 +1,6 @@
+.git/*
 .gitignore
 LICENSE.md
+Rakefile
 README.md
 rsync-exclude.txt
