@@ -1,4 +1,4 @@
-.git/*
+.git
 .gitignore
 LICENSE.md
 Rakefile
